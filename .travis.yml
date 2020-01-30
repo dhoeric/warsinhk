@@ -4,6 +4,11 @@ cache:
   yarn: true
   npm: true
 
+branches:
+  only:
+    - dev
+    - master
+
 script:
   # Immediate exit when error
   - set -e
